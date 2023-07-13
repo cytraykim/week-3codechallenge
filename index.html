@@ -1,37 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flatdango</title>
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
     <!--heading-->
     <h1>Flatiron Movie Theater</h1>
     <div>
-    <div>
-        <a id="menu">MENU </a>
+      <a id="menu"><button>MENU</button> </a>
     </div>
-    <div>
-        <ul id="filmlist"></ul>
+    <div class="films-div">
+      <ul id="films"></ul>
     </div>
-    <!--section for the ditails of the movie-->
+    <!--section for the details of the movie-->
     <div id="section">
-        <div id="headers" >
-            <h3></h3>
-        </div>
-        <div id="details">
-            <span id="runtime"></span><br>
-            <span id="showtime"></span><br>
-            <span id="availabletickets"></span><br>
-            <div id="mybutton"></div><br>
-            <p id="description"></p>
-            <img alt="" id="image">
-        </div>
+      <div id="headers">
+        <h3 id="title"></h3>
+      </div>
+      <div id="details">
+        <span id="runtime"></span><br />
+        <span id="showtime"></span><br />
+        <span id="available-tickets"></span><br />
+        <button id="buy-ticket">Buy Ticket</button><br />
+        <p id="description"></p>
+        <img alt="" id="poster" />
+      </div>
     </div>
-    </div>
-    <!--linking the html file with the js file-->
+
     <script src="./index.js"></script>
-</body>
+  </body>
 </html>

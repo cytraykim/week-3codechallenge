@@ -1,42 +1,94 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: gray
-  }
-  
-  .container {
-    margin-top: 50px;
-  }
-  
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  
-  th, td {
-    padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  th {
-    background-color: #4CAF50;
-    color: white;
-  }
-  
-  tr:hover {
-    background-color: #f5f5f5;
-  }
-  
-  .btn {
-    background-color: blanchedalmond
-    border: none;
-    color: white;
-    padding: 8px 16px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: rgb(211, 216, 208);
+}
+
+/* .container {
+  margin-top: 50px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #4caf50;
+  color: white;
+}
+
+tr:hover {
+  background-color: #f5f5f5;
+} */
+
+#details {
+  text-align: center;
+  width: 100%;
+}
+
+#details img {
+  width: 100px;
+  height: 150px;
+}
+
+#section {
+  margin: auto;
+  border: 1px solid black;
+  /* box-shadow: 20px 1px black 0.5; */
+  text-align: center;
+  width: 50%;
+}
+
+#buy-ticket {
+  background-color: rgb(107, 81, 42);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#buy-ticket:hover {
+  transform: scale(1.02);
+  background-color: black;
+  transition: all 0.15 ease-in-out;
+}
+
+#menu button {
+  background-color: rgb(107, 81, 42);
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#menu button:hover {
+  transform: scale(1.02);
+  background-color: black;
+  transition: all 0.15 ease-in-out;
+}
+
+#films {
+  list-style: none;
+  line-height: 2.5rem;
+}
+
+#films {
+  cursor: pointer;
+}
