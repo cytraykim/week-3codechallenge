@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const buyTicketButton = document.getElementById("buy-ticket");
 
   buyTicketButton.onclick = () => {availableTickets -= 1 
-  console.log(availableTickets);
+  // console.log(availableTickets);
   
   
   if (availableTickets === 0 || availableTickets < 0 )
