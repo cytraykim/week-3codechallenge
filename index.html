@@ -1,58 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>FLATDANGO</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flatdango</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <div class="container">
-    <table class="table table-striped">
-      <thead>
-        <tr>
-          <th>Title</th>
-          <th>Runtime</th>
-          <th>Showtime</th>
-          <th>Tickets</th>
-          <th></th>
-        </tr>
-      </head>
-      <body>
-        <tr>
-          <td>The Lion King</td>
-          <td>118 min</td>
-          <td>10:00 AM</td>
-          <td>50</td>
-          <td><button class="btn btn-primary">Buy</button></td>
-        </tr>
-        <tr>
-          <td>Toy Story 4</td>
-          <td>100 min</td>
-          <td>12:00 PM</td>
-          <td>75</td>
-          <td><button class="btn btn-primary">Buy</button></td>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-          
-        </tr>
-      </body>
-    </table>
-  </div>
+    <!--heading-->
+    <h1>Flatiron Movie Theater</h1>
+    <div>
+    <div>
+        <a id="menu">MENU </a>
+    </div>
+    <div>
+        <ul id="filmlist"></ul>
+    </div>
+    <!--section for the ditails of the movie-->
+    <div id="section">
+        <div id="headers" >
+            <h3></h3>
+        </div>
+        <div id="details">
+            <span id="runtime"></span><br>
+            <span id="showtime"></span><br>
+            <span id="availabletickets"></span><br>
+            <div id="mybutton"></div><br>
+            <p id="description"></p>
+            <img alt="" id="image">
+        </div>
+    </div>
+    </div>
+    <!--linking the html file with the js file-->
+    <script src="./index.js"></script>
 </body>
 </html>
